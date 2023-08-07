@@ -2,9 +2,9 @@
   "name": "frontend",
   "version": "0.0.0",
   "scripts": {
-  
-    "start": "npm run ng serve",
-    "build": "npm run ng build",
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
