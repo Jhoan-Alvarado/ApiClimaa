@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 
 var app = express()
     .use(cors({
-        credentials: true, origin: 'https://weatherclim.netlify.app/'
+        credentials: true, origin: 'https://climaapi-5a55c.web.app/'
     }))
     .use(bodyParser.json())
     .use(bodyParser.urlencoded({ extended: true }));
