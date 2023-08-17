@@ -32,7 +32,7 @@ export class LoginComponent implements OnInit {
   onSubmit() {
 
     if (this.form.valid) {
-      this.client.postRequest("https://apiclima-awcl.onrender.com/login",
+      this.client.postRequest("20.231.72.6:10101/login",
         {
           email: this.form.value.email,
           password: this.form.value.password
